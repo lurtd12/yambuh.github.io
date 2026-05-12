@@ -1,0 +1,101 @@
+<HTML></HTML>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galeri - SMA Negeri 9 Cirebon</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="gmbr/logo.png" alt="Logo SMA Negeri 9 Cirebon">
+                        </a>
+                        <div class="logo-text">
+                            <h1>SMA Negeri 9 Cirebon</h1>
+                            <span>Sekolah Unggulan Berprestasi</span>
+                        </div>
+                    </div>
+
+                    <nav>
+                        <ul class="nav-links">
+                            <li><a href="index.html">Beranda</a></li>
+                            <li><a href="index.html">Profil</a></li>
+                            <li><a href="visi misi.html">Visi Misi</a></li>
+                            <li><a href="jurusan & eskul.html">Jurusan & Eskul</a></li>
+                            <li><a href="galeri.html" class="active">Galeri</a></li>
+                        </ul>
+                        <button class="hamburger">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+  <section class="gallery container" id="galeri">
+    <h2 class="section-title">Galeri Sekolah</h2>
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="foto1.jpg" alt="Kegiatan Upacara">
+            <div class="gallery-overlay">
+                <h4>Upacara Bendera Senin</h4>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="foto2.jpg" alt="Laboratorium IPA">
+            <div class="gallery-overlay">
+                <h4>Fasilitas Laboratorium Modern</h4>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="foto3.jpg" alt="Kegiatan Olahraga">
+            <div class="gallery-overlay">
+                <h4>Pertandingan Basket Antar Kelas</h4>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="foto4.jpg" alt="Perpustakaan">
+            <div class="gallery-overlay">
+                <h4>Perpustakaan Digital SMAN 3</h4>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gmbr/foto5.jpg" alt="Pentas Seni">
+            <div class="gallery-overlay">
+                <h4>Kegiatan Pentas Seni (Pensi)</h4>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gmbr/gedung.png" alt="Gedung Sekolah">
+            <div class="gallery-overlay">
+                <h4>Lingkungan Sekolah Asri</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Footer -->
+        <footer>
+            <div class "container">
+                <p>Kelompok 2 anggota:Gio Agus Pratama ,Kayla Yuniarti,Luthfie ,Mitha Aulia Sari. </p>
+            </div>
+        </footer>
+
+        <script>
+            // Hamburger menu toggle
+            document.querySelector('.hamburger').addEventListener('click', function() {
+                document.querySelector('.nav-links').classList.toggle('active');
+            });
+        </script>
+    </body>
+</HTML>
